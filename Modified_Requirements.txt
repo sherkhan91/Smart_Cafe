@@ -1,0 +1,34 @@
+numpy  		 -- pip3 install numpy
+scipy  		 -- pip3 install scipy
+Pillow  	 -- pip3 install pillow
+cython  	 -- pip3 install cython
+
+matplotlib 	 --sudo apt-get install python3-matplotlib
+
+scikit-image   -- pip3 install scikit-image
+tensorflow     -- pip3 install zipp==1.0.0 --pip3 install --upgrade setuptools, --pip3 install tensorflow==1.13.1
+keras          -- pip3 install keras==2.1.0
+opencv-python  -- pip3 install opencv-python 
+h5py	       -- It will be installed by default, as its dependency of above liberaries
+imgaug         -- pip3 install imgaug
+IPython[all]   -- pip3 install ipython
+
+--pip3 install pycocotools
+--pip3 install mysql-connector-python
+
+
+specific tensor flow=1.13.1 and keras=2.1.0 versions
+
+
+
+
+Instructions:
+copy maskrcnn_demo.py file into the samples folder, copy the mask_rcnn_coco.h5 file into samples folder, run: python3 maskr_rcnn_demo.py from inside samples folder
+
+
+===Convert .ipynb file to .py ===
+pip3 install nbconvert
+ipython nbconvert  --to script demo.ipynb
+open demo.py comment the line:32
+python3 demo.py
+
